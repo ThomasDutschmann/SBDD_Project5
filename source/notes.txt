@@ -1,2 +1,2 @@
-- ER_beta has no AF1-function in contrast to ER_alpha, hence SERMs are exclusively agonists for ER_beta.
+- ER_beta has low AF1-activity in contrast to ER_alpha, hence SERMs are almost exclusively agonists for ER_beta.
 - Good ER_beta agonist: Erteberel (https://en.wikipedia.org/wiki/Erteberel)
