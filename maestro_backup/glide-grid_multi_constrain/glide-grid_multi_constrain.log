@@ -1,0 +1,38 @@
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b4c67a1
+Name           : glide-grid_multi_constrain
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /home/dutsch/glide-grid_multi_constrain
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-grid_multi_constrain
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide glide-grid_multi_constrain.in -OVERWRITE -HOST localhost -PROJ /local/sbdd/schrodinger/workdirs/project5/maestro_backup/ER_beta_allDocked.prj -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2018-07-16-11:38:41
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+Glide will write receptor constraints info to file: glide-grid_multi_constrain.cons
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+Creating output grid archive 'glide-grid_multi_constrain.zip'
+
+Exiting Glide
+Date: Monday, July 16 2018, at 11:39:07 MST
+CPU time (s): 24.1 user, 0.4 system, 24.6 real
+Total elapsed time = 25 seconds
+[running at reduced cpu priority]
