@@ -1,0 +1,1485 @@
+######## begin of glide-dock_final_inhibitors-0001.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b50897e
+Name           : glide-dock_final_inhibitors-0001
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0001
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0001.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:14
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         3232  to         1798 .
+ Total constraint copies over all poses =        18851
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand        1, pose    866
+Score =    -11.592
+Emodel =    -48.864
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -11.59)+Epik State Penalty(    0.00) =   -11.59 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (BDB50123205)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -48.86 E=   -47.20 Eint=     1.06 GlideScore=   -11.59
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+SKIP LIG        2 (BDB50189069): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+SKIP LIG        3 (BDB50189069): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+SKIP LIG        4 (BDB50189069): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            9
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3705 .
+ Total constraint copies over all poses =        35769
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #      5(BDB50174924)
+SKIP LIG        5 (BDB50174924): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         2667  to         2191 .
+ Total constraint copies over all poses =        24751
+Constraint(s) matched for ligand        6, pose    542
+Score =    -10.003
+Emodel =    -79.863
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.00)+Epik State Penalty(    0.21) =    -9.79 kcal/mol
+DOCKING RESULTS FOR LIGAND        6 (BDB50154066)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -79.86 E=   -48.62 Eint=     0.78 GlideScore=   -10.00
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         2135  to         1777 .
+ Total constraint copies over all poses =        23576
+Constraint(s) matched for ligand        7, pose    563
+Score =     -9.738
+Emodel =    -75.478
+
+The output pose satisfies at least the following constraint(s).
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -9.74)+Epik State Penalty(    0.94) =    -8.79 kcal/mol
+DOCKING RESULTS FOR LIGAND        7 (BDB50154066)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -75.48 E=   -45.17 Eint=     0.69 GlideScore=    -9.74
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         1371  to          971 .
+ Total constraint copies over all poses =         4114
+Constraint(s) matched for ligand        8, pose    373
+Score =     -9.102
+Emodel =    -63.133
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -9.10)+Epik State Penalty(    1.85) =    -7.26 kcal/mol
+DOCKING RESULTS FOR LIGAND        8 (BDB50154066)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -63.13 E=   -39.85 Eint=     0.85 GlideScore=    -9.10
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         1397  to         1032 .
+ Total constraint copies over all poses =         4053
+Constraint(s) matched for ligand        9, pose    498
+Score =     -9.110
+Emodel =    -66.842
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -9.11)+Epik State Penalty(    1.89) =    -7.22 kcal/mol
+DOCKING RESULTS FOR LIGAND        9 (BDB50154066)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -66.84 E=   -41.42 Eint=     0.38 GlideScore=    -9.11
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       10 (BDB50154066): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_final_inhibitors-0001_raw.maegz
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:52:38 MST
+CPU time (s): 16.5 user, 0.1 system, 21.5 real
+Total elapsed time = 21 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0001.log #########
+######## begin of glide-dock_final_inhibitors-0002.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b508980
+Name           : glide-dock_final_inhibitors-0002
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0002
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0002.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:16
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 10
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         4603 .
+ Total constraint copies over all poses =       107363
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand       11, pose    342
+Score =    -10.460
+Emodel =    -62.719
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.46)+Epik State Penalty(    0.02) =   -10.44 kcal/mol
+DOCKING RESULTS FOR LIGAND       11 (BDB50201159)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -62.72 E=   -42.65 Eint=     6.99 GlideScore=   -10.46
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+SKIP LIG       12 (BDB50201159): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Failed to generate ring conformations.
+ Will use conformations from input structure.
+SKIP LIG       13 (BDB50223235): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+SKIP LIG       14 (BDB50175417): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+Found potential matches for only 1 constraints in group 1, required 2.
+Error 1 matching features to molecule.
+GLIDE WARNING: Ligand lacks atoms to satisfy receptor constraints.
+SKIP LIG       15 (BDB50175417): INVALID ATOM(S), ETC.
+GLIDE WARNING: Ligand skipped, invalid atom(s), etc.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       16 (BDB50180478): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         1372  to          947 .
+ Total constraint copies over all poses =         7585
+Constraint(s) matched for ligand       17, pose    669
+Score =     -8.832
+Emodel =    -38.999
+
+The output pose satisfies at least the following constraint(s).
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -8.83)+Epik State Penalty(    0.24) =    -8.60 kcal/mol
+DOCKING RESULTS FOR LIGAND       17 (BDB50180459)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -39.00 E=   -30.85 Eint=     0.50 GlideScore=    -8.83
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            1
+ Using templates for ring conformations.
+SKIP LIG       18 (BDB50180459): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            1
+ Using templates for ring conformations.
+SKIP LIG       19 (BDB50180459): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            0
+ Using templates for ring conformations.
+Found potential matches for only 1 constraints in group 1, required 2.
+Error 1 matching features to molecule.
+GLIDE WARNING: Ligand lacks atoms to satisfy receptor constraints.
+SKIP LIG       20 (BDB50180459): INVALID ATOM(S), ETC.
+GLIDE WARNING: Ligand skipped, invalid atom(s), etc.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_final_inhibitors-0002_raw.maegz
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:52:27 MST
+CPU time (s): 6.9 user, 0.1 system, 8.8 real
+Total elapsed time = 9 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0002.log #########
+######## begin of glide-dock_final_inhibitors-0003.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b508982
+Name           : glide-dock_final_inhibitors-0003
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0003
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0003.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:18
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 20
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds            6
+ Using templates for ring conformations.
+Found potential matches for only 1 constraints in group 1, required 2.
+Error 1 matching features to molecule.
+GLIDE WARNING: Ligand lacks atoms to satisfy receptor constraints.
+SKIP LIG       21 (BDB50041611): INVALID ATOM(S), ETC.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+GLIDE WARNING: Ligand skipped, invalid atom(s), etc.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            6
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3755 .
+ Total constraint copies over all poses =        14156
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand       22, pose    823
+Score =    -10.421
+Emodel =    -79.886
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.42)+Epik State Penalty(    0.01) =   -10.42 kcal/mol
+DOCKING RESULTS FOR LIGAND       22 (BDB50157493)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -79.89 E=   -48.81 Eint=     1.97 GlideScore=   -10.42
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       23 (BDB50187954): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         2640 .
+ Total constraint copies over all poses =        34694
+Constraint(s) matched for ligand       24, pose    547
+Score =    -10.074
+Emodel =    -77.941
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.07)+Epik State Penalty(    0.03) =   -10.04 kcal/mol
+DOCKING RESULTS FOR LIGAND       24 (BDB50152609)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -77.94 E=   -48.80 Eint=     1.37 GlideScore=   -10.07
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       25 (BDB50152609): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       26 (BDB50152609): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         3832  to         2457 .
+ Total constraint copies over all poses =        36654
+Constraint(s) matched for ligand       27, pose    425
+Score =    -11.563
+Emodel =    -73.905
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -11.56)+Epik State Penalty(    0.02) =   -11.55 kcal/mol
+DOCKING RESULTS FOR LIGAND       27 (BDB50168331)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -73.91 E=   -48.10 Eint=     5.89 GlideScore=   -11.56
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+SKIP LIG       28 (BDB50168331): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         2160  to         1334 .
+ Total constraint copies over all poses =        18123
+Constraint(s) matched for ligand       29, pose    113
+Score =    -10.410
+Emodel =    -78.247
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.41)+Epik State Penalty(    0.10) =   -10.31 kcal/mol
+DOCKING RESULTS FOR LIGAND       29 (BDB50152616)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -78.25 E=   -49.32 Eint=     7.03 GlideScore=   -10.41
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+SKIP LIG       30 (BDB50152616): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_final_inhibitors-0003_raw.maegz
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:52:34 MST
+CPU time (s): 11.6 user, 0.1 system, 14.3 real
+Total elapsed time = 14 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0003.log #########
+######## begin of glide-dock_final_inhibitors-0004.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b508984
+Name           : glide-dock_final_inhibitors-0004
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0004
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0004.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:20
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 30
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from           41  to           40 .
+ Total constraint copies over all poses =          648
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     31(BDB50310370)
+SKIP LIG       31 (BDB50310370): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Failed to generate ring conformations.
+ Will use conformations from input structure.
+SKIP LIG       32 (BDB50190350): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            8
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3441 .
+ Total constraint copies over all poses =        20661
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     33(BDB50146281)
+SKIP LIG       33 (BDB50146281): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            8
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3610 .
+ Total constraint copies over all poses =        13917
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     34(BDB50146281)
+SKIP LIG       34 (BDB50146281): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3711 .
+ Total constraint copies over all poses =        53035
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand       35, pose    169
+Score =    -10.783
+Emodel =    -71.481
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.78)+Epik State Penalty(    0.05) =   -10.73 kcal/mol
+DOCKING RESULTS FOR LIGAND       35 (BDB50168367)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -71.48 E=   -42.94 Eint=     0.89 GlideScore=   -10.78
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       36 (BDB50168367): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         2937 .
+ Total constraint copies over all poses =         9341
+Constraint(s) matched for ligand       37, pose     50
+Score =    -10.813
+Emodel =    -81.011
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.81)+Epik State Penalty(    0.00) =   -10.81 kcal/mol
+DOCKING RESULTS FOR LIGAND       37 (BDB50175419)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -81.01 E=   -50.28 Eint=     1.74 GlideScore=   -10.81
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       38 (BDB50180469): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            9
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         1403  to          361 .
+ Total constraint copies over all poses =         1763
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     39(BDB50161713)
+SKIP LIG       39 (BDB50161713): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3353 .
+ Total constraint copies over all poses =        44792
+Constraint(s) matched for ligand       40, pose    361
+Score =    -11.376
+Emodel =    -91.386
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -11.38)+Epik State Penalty(    0.31) =   -11.07 kcal/mol
+DOCKING RESULTS FOR LIGAND       40 (BDB50166755)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -91.39 E=   -53.30 Eint=     2.93 GlideScore=   -11.38
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_final_inhibitors-0004_raw.maegz
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:53:06 MST
+CPU time (s): 36.6 user, 0.1 system, 44.4 real
+Total elapsed time = 44 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0004.log #########
+######## begin of glide-dock_final_inhibitors-0005.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b50898f
+Name           : glide-dock_final_inhibitors-0005
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0005
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0005.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:32
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 40
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+SKIP LIG       41 (BDB50166755): NO GOOD POSES FOUND.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         1788  to         1065 .
+ Total constraint copies over all poses =        15306
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand       42, pose    686
+Score =    -10.590
+Emodel =    -61.701
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.59)+Epik State Penalty(    0.06) =   -10.53 kcal/mol
+DOCKING RESULTS FOR LIGAND       42 (BDB50154137)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -61.70 E=   -41.12 Eint=     0.23 GlideScore=   -10.59
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       43 (BDB50154137): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         4016  to         2782 .
+ Total constraint copies over all poses =        37241
+Constraint(s) matched for ligand       44, pose    730
+Score =    -10.342
+Emodel =    -84.888
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.34)+Epik State Penalty(    0.16) =   -10.18 kcal/mol
+DOCKING RESULTS FOR LIGAND       44 (BDB50154059)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -84.89 E=   -50.60 Eint=     0.45 GlideScore=   -10.34
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       45 (BDB50154059): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+SKIP LIG       46 (BDB50154059): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            1
+ Using templates for ring conformations.
+Found potential matches for only 1 constraints in group 1, required 2.
+Error 1 matching features to molecule.
+GLIDE WARNING: Ligand lacks atoms to satisfy receptor constraints.
+SKIP LIG       47 (BDB50154059): INVALID ATOM(S), ETC.
+GLIDE WARNING: Ligand skipped, invalid atom(s), etc.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3808 .
+ Total constraint copies over all poses =        52719
+Constraint(s) matched for ligand       48, pose    308
+Score =    -10.428
+Emodel =    -78.963
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.43)+Epik State Penalty(    0.03) =   -10.40 kcal/mol
+DOCKING RESULTS FOR LIGAND       48 (BDB50154134)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -78.96 E=   -49.14 Eint=     3.41 GlideScore=   -10.43
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+SKIP LIG       49 (BDB50154134): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+SKIP LIG       50 (BDB50154134): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_final_inhibitors-0005_raw.maegz
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:52:43 MST
+CPU time (s): 7.7 user, 0.1 system, 9.1 real
+Total elapsed time = 9 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0005.log #########
+######## begin of glide-dock_final_inhibitors-0006.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b508995
+Name           : glide-dock_final_inhibitors-0006
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0006
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0006.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:38
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 50
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from           60  to           45 .
+ Total constraint copies over all poses =          551
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand       51, pose     25
+Score =     -9.600
+Emodel =    -61.489
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -9.60)+Epik State Penalty(    0.39) =    -9.21 kcal/mol
+DOCKING RESULTS FOR LIGAND       51 (BDB50130177)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -61.49 E=   -43.29 Eint=     0.10 GlideScore=    -9.60
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from          154  to          141 .
+ Total constraint copies over all poses =         2116
+Constraint(s) matched for ligand       52, pose    343
+Score =    -10.515
+Emodel =    -74.749
+
+The output pose satisfies at least the following constraint(s).
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.52)+Epik State Penalty(    0.51) =   -10.01 kcal/mol
+DOCKING RESULTS FOR LIGAND       52 (BDB50130177)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -74.75 E=   -47.84 Eint=     0.12 GlideScore=   -10.52
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from          104  to          101 .
+ Total constraint copies over all poses =         1687
+Constraint(s) matched for ligand       53, pose     11
+Score =    -10.357
+Emodel =    -71.842
+
+The output pose satisfies at least the following constraint(s).
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.36)+Epik State Penalty(    1.71) =    -8.65 kcal/mol
+DOCKING RESULTS FOR LIGAND       53 (BDB50130177)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -71.84 E=   -45.56 Eint=     0.07 GlideScore=   -10.36
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            6
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3596 .
+ Total constraint copies over all poses =        19808
+Constraint(s) matched for ligand       54, pose    742
+Score =    -10.139
+Emodel =    -65.163
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.14)+Epik State Penalty(    0.00) =   -10.14 kcal/mol
+DOCKING RESULTS FOR LIGAND       54 (BDB50133069)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -65.16 E=   -44.01 Eint=     6.07 GlideScore=   -10.14
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from          471  to          245 .
+ Total constraint copies over all poses =         1589
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     55(BDB50104326)
+SKIP LIG       55 (BDB50104326): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from          453  to           85 .
+ Total constraint copies over all poses =          341
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     56(BDB50104326)
+SKIP LIG       56 (BDB50104326): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            9
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         1602 .
+ Total constraint copies over all poses =        20355
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     57(BDB50126769)
+SKIP LIG       57 (BDB50126769): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            9
+ Using templates for ring conformations.
+SKIP LIG       58 (BDB50126769): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         3354 .
+ Total constraint copies over all poses =        52311
+Constraint(s) matched for ligand       59, pose    153
+Score =    -10.769
+Emodel =    -62.916
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.77)+Epik State Penalty(    0.00) =   -10.77 kcal/mol
+DOCKING RESULTS FOR LIGAND       59 (BDB19968)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -62.92 E=   -44.83 Eint=     3.05 GlideScore=   -10.77
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            9
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         3699  to         2200 .
+ Total constraint copies over all poses =        12273
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     60(BDB50104329)
+SKIP LIG       60 (BDB50104329): GRID-ENERGY MIN FAILED
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_final_inhibitors-0006_raw.maegz
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:53:13 MST
+CPU time (s): 28.3 user, 0.1 system, 33.7 real
+Total elapsed time = 34 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0006.log #########
+######## begin of glide-dock_final_inhibitors-0007.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b508999
+Name           : glide-dock_final_inhibitors-0007
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0007
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0007.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:42
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 60
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds            9
+ Using templates for ring conformations.
+SKIP LIG       61 (BDB50104329): NO GOOD POSES FOUND.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            5
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         3272  to         2726 .
+ Total constraint copies over all poses =        39724
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand       62, pose    356
+Score =     -9.090
+Emodel =    -40.144
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -9.09)+Epik State Penalty(    0.00) =    -9.09 kcal/mol
+DOCKING RESULTS FOR LIGAND       62 (BDB50173663)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -40.14 E=   -27.03 Eint=     2.12 GlideScore=    -9.09
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         2244  to         1217 .
+ Total constraint copies over all poses =         6528
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     63(BDB50104325)
+SKIP LIG       63 (BDB50104325): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+SKIP LIG       64 (BDB50264124): NO GOOD POSES FOUND.
+GLIDE WARNING: Skipping refinement, etc. because rough-score step failed.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         4502  to         2658 .
+ Total constraint copies over all poses =        27191
+Constraint(s) matched for ligand       65, pose    221
+Score =    -10.515
+Emodel =    -71.301
+
+The output pose satisfies at least the following constraint(s).
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.52)+Epik State Penalty(    0.00) =   -10.52 kcal/mol
+DOCKING RESULTS FOR LIGAND       65 (BDB17292)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -71.30 E=   -44.82 Eint=     0.35 GlideScore=   -10.52
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           13
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         1457  to          343 .
+ Total constraint copies over all poses =         2613
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     66(BDB50121622)
+SKIP LIG       66 (BDB50121622): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           13
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from          341  to           95 .
+ Total constraint copies over all poses =          400
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     67(BDB50121622)
+SKIP LIG       67 (BDB50121622): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           13
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from          859  to          440 .
+ Total constraint copies over all poses =         6231
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     68(BDB50121622)
+SKIP LIG       68 (BDB50121622): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            2
+ Failed to generate ring conformations.
+ Will use conformations from input structure.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         4280  to         2642 .
+ Total constraint copies over all poses =        25855
+Constraint(s) matched for ligand       69, pose    977
+Score =    -10.229
+Emodel =    -62.675
+
+The output pose satisfies at least the following constraint(s).
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+A:GLU:305:OE1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.23)+Epik State Penalty(    0.00) =   -10.23 kcal/mol
+DOCKING RESULTS FOR LIGAND       69 (BDB50136241)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -62.68 E=   -42.86 Eint=     1.23 GlideScore=   -10.23
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         4816  to         2678 .
+ Total constraint copies over all poses =        38251
+Constraint(s) matched for ligand       70, pose    889
+Score =    -10.091
+Emodel =    -67.155
+
+The output pose satisfies at least the following constraint(s).
+A:ARG:346:HH22(hbond) (Type = H-bond Donor)
+A:HIE:475:ND1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.09)+Epik State Penalty(    0.00) =   -10.09 kcal/mol
+DOCKING RESULTS FOR LIGAND       70 (BDB19970)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -67.15 E=   -42.19 Eint=     1.75 GlideScore=   -10.09
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_final_inhibitors-0007_raw.maegz
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:53:21 MST
+CPU time (s): 30.1 user, 0.2 system, 36.6 real
+Total elapsed time = 37 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0007.log #########
+######## begin of glide-dock_final_inhibitors-0008.log #########
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b50899e
+Name           : glide-dock_final_inhibitors-0008
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /tmp/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors-0008
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide -RESTART -serial glide-dock_final_inhibitors-0008.inp -HOST localhost
+StartTime      : 2018-07-19-14:52:46
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 70
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  3 out of   3 constraints used from file /home/dutsch/glide-grid_multi_constrain/glide-grid_multi_constrain.cons
+Labels and receptor types of constraints used are:
+A:ARG:346:HH22(hbond) (H-bond Donor)
+A:HIE:475:ND1(hbond) (H-bond Acceptor)
+A:GLU:305:OE1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:ARG:346:HH22(hbond), A:HIE:475:ND1(hbond), A:GLU:305:OE1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          25 ,           25 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           25 , 
+          25 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+  
+  Penalizing non-planar amide torsions 
+  
+ Number of rotatable bonds           15
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from           32  to           26 .
+ Total constraint copies over all poses =          324
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     71(BDB50151072)
+SKIP LIG       71 (BDB50151072): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           15
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from            8  to            5 .
+ Total constraint copies over all poses =           29
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     72(BDB50151072)
+SKIP LIG       72 (BDB50151072): GRID-ENERGY MIN FAILED
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           15
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from            9  to            6 .
+ Total constraint copies over all poses =           52
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #     73(BDB50151072)
+SKIP LIG       73 (BDB50151072): GRID-ENERGY MIN FAILED
+GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+
+Exiting Glide
+Date: Thursday, July 19 2018, at 14:53:24 MST
+CPU time (s): 29.9 user, 0.2 system, 34.9 real
+Total elapsed time = 35 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_final_inhibitors-0008.log #########

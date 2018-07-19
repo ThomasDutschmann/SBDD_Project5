@@ -1,0 +1,80 @@
+
+====================================
+            Glide Script            
+====================================
+
+--------------------------------------------------------------------------------
+JobId          : meticillin-0-5b50897b
+Name           : glide-dock_final_inhibitors
+Program        : Glide
+MMshareExec    : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Host           : meticillin.Informatik.Uni-Tuebingen.De
+Dir            : /home/dutsch/glide-dock_final_inhibitors
+HostEntry      : localhost
+JobHost        : meticillin.Informatik.Uni-Tuebingen.De
+JobDir         : /tmp/dutsch/glide-dock_final_inhibitors
+JobMMshareExec : /local/sbdd/schrodinger/2018-2/install/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /local/sbdd/schrodinger/2018-2/install/glide glide-dock_final_inhibitors.in -OVERWRITE -adjust -HOST localhost:4 -PROJ /local/sbdd/schrodinger/workdirs/project5/maestro_backup/ER_beta_allDocked_2.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2018-07-19-14:52:11
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_final_inhibitors.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 73
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 4)
+Number of jobs:       8
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 7 | launched  meticillin-0-5b50897e glide-dock_final_inhibitors-0001 localhost [meticillin]
+0 2 6 | launched  meticillin-0-5b508980 glide-dock_final_inhibitors-0002 localhost [meticillin]
+0 3 5 | launched  meticillin-0-5b508982 glide-dock_final_inhibitors-0003 localhost [meticillin]
+0 4 4 | launched  meticillin-0-5b508984 glide-dock_final_inhibitors-0004 localhost [meticillin]
+1 3 4 | finished  meticillin-0-5b508980 glide-dock_final_inhibitors-0002 localhost [meticillin]
+1 4 3 | launched  meticillin-0-5b50898f glide-dock_final_inhibitors-0005 localhost [meticillin]
+2 3 3 | finished  meticillin-0-5b508982 glide-dock_final_inhibitors-0003 localhost [meticillin]
+2 4 2 | launched  meticillin-0-5b508995 glide-dock_final_inhibitors-0006 localhost [meticillin]
+3 3 2 | finished  meticillin-0-5b50897e glide-dock_final_inhibitors-0001 localhost [meticillin]
+3 4 1 | launched  meticillin-0-5b508999 glide-dock_final_inhibitors-0007 localhost [meticillin]
+4 3 1 | finished  meticillin-0-5b50898f glide-dock_final_inhibitors-0005 localhost [meticillin]
+4 4 0 | launched  meticillin-0-5b50899e glide-dock_final_inhibitors-0008 localhost [meticillin]
+5 3 0 | finished  meticillin-0-5b508984 glide-dock_final_inhibitors-0004 localhost [meticillin]
+6 2 0 | finished  meticillin-0-5b508995 glide-dock_final_inhibitors-0006 localhost [meticillin]
+7 1 0 | finished  meticillin-0-5b508999 glide-dock_final_inhibitors-0007 localhost [meticillin]
+8 0 0 | finished  meticillin-0-5b50899e glide-dock_final_inhibitors-0008 localhost [meticillin]
+
+All jobs have completed.
+
+8 of 8 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 73 ligands done.
+Writing poses to glide-dock_final_inhibitors_pv.maegz
+Combining log files to glide-dock_final_inhibitors_subjobs.log
+Archiving subjob pose files in glide-dock_final_inhibitors_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_final_inhibitors_subjobs.tar.gz
+Cleaning up...
+
+All Glide docking subjobs: Total CPU time = 168 seconds (2 min 48 s)
+
+Finished at: Thu Jul 19 14:53:26 2018
+Total elapsed time for Glide script = 73 seconds (1 min 13 s)
+[running at reduced cpu priority]
